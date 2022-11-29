@@ -1,0 +1,34 @@
+.value{
+    padding: 5rem 0 0 0;
+    width: 100vw;
+    background-color: black;
+}
+
+.bgValue{
+    width: 100%;
+    height: 50vh;
+}
+
+.cardsValue{
+    width: 100%;
+    color: white;
+    display: flex;
+}
+
+.floatLeft, .floatRight{
+    width: 50%;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.floatLeft h1{
+    font-size: 5rem;
+    padding: 0 2rem;
+    text-align: start;
+}
+
+.floatRight{
+    float: right;
+}

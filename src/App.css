@@ -1,0 +1,19 @@
+.App{
+    margin: -10px;
+    padding: 0;
+}
+
+.whatsBtn{
+    width: 50px;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    top: auto;
+    left: auto;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.whatsImg{
+    width: 50px;
+}

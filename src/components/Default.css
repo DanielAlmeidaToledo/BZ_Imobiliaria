@@ -1,0 +1,52 @@
+.default{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20vh;
+}
+
+.logo{
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem 0 0 4rem;
+    cursor: pointer;
+}
+
+.navOptions{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.navOptions li{
+    list-style: none;
+    margin: 0 2rem;
+}
+
+.navOptions a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.contactNav{
+    border: 2px solid #001F5F;
+    background: none;
+    border-radius: .7rem;
+    padding: .4rem 1rem;
+    transition: .5s;
+}
+
+.contactNav:hover{
+    background: #001F5F;
+    border: 2px solid #001F5F;
+}
+

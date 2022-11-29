@@ -1,0 +1,32 @@
+.cardValue{
+    margin: 2rem;
+    background: #001F5F;
+    border-radius: .3rem;
+    display: flex;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cardValue:hover{
+    margin-left: 0;
+}
+
+.cardValue h3{
+    width: 80vw;
+    font-size: 1.7rem;
+}
+
+.cardLeft{
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 2rem;
+}
+
+.cardRight{
+    float: right;
+    padding: 2rem;
+    width: 70%;
+    flex-wrap: wrap;
+}
