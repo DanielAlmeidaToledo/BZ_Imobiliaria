@@ -1,0 +1,51 @@
+.projects{
+    width: 100%;
+    display: flex;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+}
+
+.projLeft, .projRight{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* LEFT */
+
+.projLeft{
+    float: left;
+}
+
+.projTitle{
+    width: 100%;
+    font-size: 3.5rem;
+    padding: 4.5rem 0 0 0;
+}
+
+.proj1{
+    width: 28rem;
+    border-radius: .3rem;
+}
+
+/* RIGHT */
+
+.projRight{
+    float: left;
+    padding-top: 4rem;
+}
+
+.proj2{
+    width: 35rem;
+    height: 20rem;
+    margin: 2rem 0;
+    border-radius: .3rem;
+}
+
+.projSpan{
+    font-size: 1.3rem;
+}

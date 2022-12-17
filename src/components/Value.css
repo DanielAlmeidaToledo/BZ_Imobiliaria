@@ -23,9 +23,11 @@
     float: left;
 }
 
-.floatLeft h1{
+.valueTitle{
+    position: sticky;
     font-size: 5rem;
     padding: 0 2rem;
+    top: 4rem;
     text-align: start;
 }
 

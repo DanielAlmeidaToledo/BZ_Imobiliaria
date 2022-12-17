@@ -1,4 +1,4 @@
-# BZ_Imobiliaria
+# BZ Imobiliaria
 
 Projeto freelancer de uma Landing Page destinada a imobiliária Bordim e Zanolla. Desenvolvido em React.JS e Typescript.
 
