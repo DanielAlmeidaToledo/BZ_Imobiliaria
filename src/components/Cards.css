@@ -1,6 +1,7 @@
 .cardValue{
     margin: 2rem;
     background: #001F5F;
+    color: #fff;
     border-radius: .3rem;
     display: flex;
     cursor: pointer;

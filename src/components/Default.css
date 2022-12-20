@@ -1,8 +1,9 @@
 .default{
     position: absolute;
-    width: 100%;
+    width: 101%;
     display: flex;
     top: 0;
+    background: rgba(255, 255, 255, 0.6);
 }
 
 .navbar{
@@ -13,10 +14,11 @@
 }
 
 .logo{
-    width: 8rem;
-    height: 8rem;
-    margin: 2rem 0 0 4rem;
+    width: 7rem;
+    height: 7rem;
+    margin: auto 0 auto 7rem;
     cursor: pointer;
+    border-radius: .3rem;
 }
 
 .navOptions{
@@ -33,7 +35,7 @@
 
 .navOptions a{
     text-decoration: none;
-    color: #fff;
+    color: #001F5F;
     font-size: 1.3rem;
 }
 
@@ -48,5 +50,6 @@
 .contactNav:hover{
     background: #001F5F;
     border: 2px solid #001F5F;
+    color: #fff;
 }
 

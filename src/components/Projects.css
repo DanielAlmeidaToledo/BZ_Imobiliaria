@@ -1,8 +1,8 @@
 .projects{
     width: 100%;
     display: flex;
-    color: #fff;
-    background: #000;
+    color: #000;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233));
     text-align: center;
     flex-wrap: wrap;
     padding: 5rem 0;

@@ -1,7 +1,7 @@
 .value{
-    padding: 5rem 0 0 0;
+    padding: 5rem 0;
     width: 100vw;
-    background-color: black;
+    background-color: #fff;
 }
 
 .bgValue{
@@ -11,7 +11,7 @@
 
 .cardsValue{
     width: 100%;
-    color: white;
+    color: black;
     display: flex;
 }
 
