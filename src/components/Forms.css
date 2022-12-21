@@ -1,0 +1,108 @@
+.forms{
+    background-image: url(../../public/slideImg/img8.jpg);
+    background-position: initial;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formsTitle{
+    font-size: 2.5rem;
+    text-align: center;
+    filter: drop-shadow(3px 2px 5px #fff);
+    width: 100%;
+}
+
+.formsDiv{
+    margin: auto;
+    background: #001F5F;
+    color: #fff;
+    width: 60%;
+    display: flex;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+/* LEFT */
+
+.formsSpan{
+    float: left;
+    width: 50%;
+}
+
+/* RIGHT */
+
+.formsRight{
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+/* Forms */
+
+.container{
+    position: relative;
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+.contInput{
+    width: 20rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: rgb(230, 230, 230);
+    background: #001F5F;
+    outline: none;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: .5rem;
+}
+
+.contSpan{
+    position: absolute;
+    top: 22px;
+    left: 25px;
+    font-size: 22px;
+    letter-spacing: 0.05rem;
+    pointer-events: none;
+    font-weight: 600;
+    transition: .4s;
+    color: rgb(230, 230, 230);
+}
+
+.contInput:focus{
+    border: none;
+    outline: 2px solid rgb(230, 230, 230);
+}
+
+.contInput:focus + span, input:valid + span{
+    top: -12px;
+    left: 10px;
+    font-size: 1.1rem;
+    padding: 0 10px;
+    background: #001F5F;
+}
+
+/* Button */
+ 
+.formsBtn{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    transition: .6s;
+    width: 60%;
+    height: 4rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+.formsIcon{
+    padding: 0 1rem;
+}

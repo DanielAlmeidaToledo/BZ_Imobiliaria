@@ -5,7 +5,7 @@
     background-image: linear-gradient(rgb(255, 255, 255), rgb(233, 233, 233));
     text-align: center;
     flex-wrap: wrap;
-    padding: 5rem 0;
+    padding: 2rem 0 10rem 0;
 }
 
 .projLeft, .projRight{

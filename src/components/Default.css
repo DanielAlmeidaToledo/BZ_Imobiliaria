@@ -3,7 +3,7 @@
     width: 101%;
     display: flex;
     top: 0;
-    background: rgba(255, 255, 255, 0.6);
+    /* background: rgba(255, 255, 255, 0.6); */
 }
 
 .navbar{
@@ -19,6 +19,7 @@
     margin: auto 0 auto 7rem;
     cursor: pointer;
     border-radius: .3rem;
+    filter: drop-shadow(2px 6px 10px #fff);
 }
 
 .navOptions{
@@ -35,7 +36,7 @@
 
 .navOptions a{
     text-decoration: none;
-    color: #001F5F;
+    color: #fff;
     font-size: 1.3rem;
 }
 
@@ -51,5 +52,6 @@
     background: #001F5F;
     border: 2px solid #001F5F;
     color: #fff;
+    filter: drop-shadow(1px 1px 5px #fff);
 }
 

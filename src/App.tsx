@@ -1,6 +1,7 @@
 import './App.css'
 import Carousel from './components/Carousel'
 import Default from './components/Default'
+import Forms from "./components/Forms";
 import Projects from "./components/Projects";
 import Value from './components/Value'
 
@@ -20,6 +21,7 @@ function App() {
       <Default />
       <Value />
       <Projects />
+      <Forms />
     </div>
   );
 }
