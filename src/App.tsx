@@ -4,8 +4,9 @@ import Default from './components/Default'
 import Forms from "./components/Forms";
 import Projects from "./components/Projects";
 import Value from './components/Value'
+import Footer from "./components/Footer";
 
-import whatsapp from '/animations/whats.png'
+import whatsapp from "./assets/animations/whats.png";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
       <Value />
       <Projects />
       <Forms />
+      <Footer />
     </div>
   );
 }
 
-export default App
+export default App;

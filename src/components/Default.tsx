@@ -1,4 +1,4 @@
-import Logo from "/logo/logofinal.png";
+import Logo from "../assets/logo/logofinal.png";
 import "./Default.css";
 
 const Default = () => {

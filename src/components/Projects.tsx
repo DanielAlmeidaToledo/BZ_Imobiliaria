@@ -1,8 +1,8 @@
 import "./Projects.css";
 
-import proj1 from "../../public/slideImg/img8-1.jpg";
-import proj2 from "../../public/house/house1.jpg";
-import proj3 from "../../public/house/house3.jpg";
+import proj1 from "../assets/slideImg/img8-1.jpg";
+import proj2 from "../assets/house/house1.jpg";
+import proj3 from "../assets/house/house3.jpg";
 
 const Projects = () => {
   return (

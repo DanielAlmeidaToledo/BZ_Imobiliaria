@@ -1,16 +1,16 @@
 .forms{
-    background-image: url(../../public/slideImg/img8.jpg);
+    background-image: url(../src/assets/slideImg/img8.jpg);
     background-position: initial;
     background-size: cover;
     background-attachment: fixed;
-    height: 85vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .formsTitle{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     text-align: center;
     filter: drop-shadow(3px 2px 5px #fff);
     width: 100%;
@@ -18,7 +18,7 @@
 
 .formsDiv{
     margin: auto;
-    background: #001F5F;
+    background: #00205ff4;
     color: #fff;
     width: 60%;
     display: flex;
@@ -30,7 +30,12 @@
 
 .formsSpan{
     float: left;
+    display: flex;
+    align-items: center;
     width: 50%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 1rem;
 }
 
 /* RIGHT */
@@ -53,8 +58,8 @@
 
 .contInput{
     width: 20rem;
-    padding: 1rem;
-    font-size: 1.5rem;
+    padding: .7rem 1rem;
+    font-size: 1.2rem;
     color: rgb(230, 230, 230);
     background: #001F5F;
     outline: none;
@@ -62,14 +67,19 @@
     border-radius: .5rem;
 }
 
+.contInputAss{
+    height: 20vh;
+    text-align: start;
+}
+
 .contSpan{
     position: absolute;
-    top: 22px;
-    left: 25px;
-    font-size: 22px;
+    top: .8rem;
+    left: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 0.05rem;
     pointer-events: none;
-    font-weight: 600;
+    font-weight: bold;
     transition: .4s;
     color: rgb(230, 230, 230);
 }
@@ -96,13 +106,21 @@
     color: #000;
     background: #fff;
     text-decoration: none;
-    transition: .6s;
     width: 60%;
     height: 4rem;
     border-radius: 1rem;
     padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+.formsBtn:hover{
+    background: hsla(138, 82%, 69%, 1);
+    background: linear-gradient(0deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(0deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(0deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6EF195", endColorstr="#00E3FD", GradientType=1 );
 }
 
 .formsIcon{
-    padding: 0 1rem;
+    padding: 0 .5rem;
 }

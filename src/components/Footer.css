@@ -1,0 +1,59 @@
+.Footer{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    padding: 2rem 0;
+}
+
+.fSociais{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-right: 1px solid #fff;
+}
+
+/* SOCIAL MEDIA */
+
+.fLogo{
+    width: 15rem;
+}
+
+.fRedes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fRedes img{
+    width: 2.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    border-radius: .3rem;
+}
+
+.fRedes img:hover{
+    box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+/*PLACE and CONTACT*/
+
+.fPlace{
+    display: flex;
+    width: 70%;
+    color: #fff;
+}
+
+.fMap{
+    margin-left: 5rem;
+}
+
+.fInfos{
+    margin: 0 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fInfos span{
+    width: 100%;
+}
