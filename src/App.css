@@ -17,3 +17,9 @@
 .whatsImg{
     width: 50px;
 }
+
+@media (max-width: 710px){
+    .App{
+        overflow-x: hidden;
+    }
+}

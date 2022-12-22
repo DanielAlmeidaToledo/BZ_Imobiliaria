@@ -49,3 +49,22 @@
 .projSpan{
     font-size: 1.3rem;
 }
+
+@media (max-width: 1130px){
+    .projects{
+        margin: 0 auto;
+    }
+    .projLeft, .projRight{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+    }
+    .proj1{
+        width: 20rem;
+        justify-content: center;
+    }
+    .proj2{
+        width: 23rem;
+        height: 12rem;
+    }
+}

@@ -50,8 +50,8 @@ const Forms = () => {
             target={"_blank"}
             className="formsBtn"
           >
-            <BsWhatsapp className="formsIcon" size={40} color={"#000"} />
-            <p>Nosso Whatsapp</p>
+            <BsWhatsapp className="formsIcon" size={35} color={"#fff"} />
+            <p>Whatsapp</p>
           </a>
         </div>
       </div>

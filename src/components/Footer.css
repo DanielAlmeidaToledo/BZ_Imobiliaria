@@ -57,3 +57,17 @@
 .fInfos span{
     width: 100%;
 }
+
+@media (max-width: 710px){
+    .Footer{
+        display: block;
+    }
+    .fSociais, .fPlace{
+        width: 100%;
+        display: flex;
+        margin: 1rem auto;
+    }
+    .fMap{
+        margin-left: 3rem;
+    }
+}

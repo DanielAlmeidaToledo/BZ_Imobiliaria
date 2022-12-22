@@ -55,3 +55,19 @@
     filter: drop-shadow(1px 1px 5px #fff);
 }
 
+@media (max-width: 710px){
+    .navbar{
+        justify-content: space-around;
+    }
+    .logo{
+        width: 6rem;
+        height: 6rem;
+        margin: auto 0 auto 3rem;
+    }
+    .navOptions{
+        margin-right: 3rem;
+    }
+    .navOptions li{
+        margin: 0 .5rem;
+    }
+}

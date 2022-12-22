@@ -10,14 +10,14 @@
 }
 
 .formsTitle{
-    font-size: 2.7rem;
+    font-size: 3rem;
     text-align: center;
     filter: drop-shadow(3px 2px 5px #fff);
     width: 100%;
 }
 
 .formsDiv{
-    margin: auto;
+    margin: auto auto 5rem auto;
     background: #00205ff4;
     color: #fff;
     width: 60%;
@@ -34,7 +34,7 @@
     align-items: center;
     width: 50%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 0 1rem;
 }
 
@@ -102,23 +102,20 @@
 .formsBtn{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    color: #000;
-    background: #fff;
+    color: #fff;
+    background: #25D366;
     text-decoration: none;
-    width: 60%;
-    height: 4rem;
-    border-radius: 1rem;
-    padding: 0 1rem;
+    width: 50%;
+    height: 3rem;
+    border-radius: .5rem;
     font-size: 1.3rem;
+    transition: .4s;
 }
 
 .formsBtn:hover{
-    background: hsla(138, 82%, 69%, 1);
-    background: linear-gradient(0deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(0deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(0deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6EF195", endColorstr="#00E3FD", GradientType=1 );
+    filter: saturate(120%);
 }
 
 .formsIcon{
