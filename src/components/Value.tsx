@@ -1,7 +1,7 @@
 import "./Value.css";
 import Cards from './Cards'
 import { FcIdea, FcSurvey, FcLibrary, FcHome } from "react-icons/fc";
-import BgValue from "/Background.png";
+import BgValue from "../assets/Background.png";
 
 const Value = () => {
   return (
