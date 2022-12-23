@@ -31,3 +31,31 @@
     width: 70%;
     flex-wrap: wrap;
 }
+
+@media (max-width: 710px){
+    .cardValue{
+        width: 80%;
+        height: 22vh;
+        display: flex;
+        align-items: center;
+        margin: 3rem auto;
+        color: #fff;
+        cursor: pointer;
+        transition: .5s;
+    }
+    .cardValue:hover{
+        margin: 3rem auto;
+    }
+    .cardValue span{
+        display: none;
+    }
+    .cardValue h3{
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .cardLeft{
+        width: 20%;
+        margin-left: 1rem;
+    }
+}

@@ -68,6 +68,21 @@
         margin: 1rem auto;
     }
     .fMap{
-        margin-left: 3rem;
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .fRedes{
+        padding: 1rem 0;
+    }
+    .fPlace{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fInfos{
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
     }
 }

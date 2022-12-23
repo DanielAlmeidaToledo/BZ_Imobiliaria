@@ -7,6 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: 'Roboto Slab', serif;
 }
 
 .formsTitle{
@@ -36,6 +37,8 @@
     text-align: center;
     font-size: 1.7rem;
     padding: 0 1rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
 }
 
 /* RIGHT */
@@ -74,7 +77,7 @@
 
 .contSpan{
     position: absolute;
-    top: .8rem;
+    top: .6rem;
     left: 1.5rem;
     font-size: 1.3rem;
     letter-spacing: 0.05rem;
@@ -92,7 +95,7 @@
 .contInput:focus + span, input:valid + span{
     top: -12px;
     left: 10px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 0 10px;
     background: #001F5F;
 }
@@ -120,4 +123,40 @@
 
 .formsIcon{
     padding: 0 .5rem;
+}
+
+
+@media (max-width: 1130px){
+    .forms{
+        height: 130vh;
+        display: block;
+    }
+    .formsSpan, .formsRight{
+        width: 100%;
+    }
+    .formsSpan{
+        padding: 1rem 0 2rem;
+    }
+    .formsDiv{
+        display: block;
+        width: 80%;
+        height: 106vh;
+    }
+    .contInput{
+        width: 15rem;
+        padding: 1rem;
+    }
+    .contSpan{
+        position: absolute;
+        top: .8rem;
+        left: 1.5rem;
+        font-size: 1.3rem;
+    }
+    .contInput:focus + span, input:valid + span{
+        top: -13px;
+    }
+    .formsBtn{
+        width: 70%;
+        height: 3.2rem;
+    }
 }

@@ -34,3 +34,24 @@
 .floatRight{
     float: right;
 }
+
+@media (max-width: 710px){
+    .value{
+        padding: 2rem 0;
+    }
+    .cardsValue{
+        display: block;
+    }
+    .valueTitle{
+        text-align: center;
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        padding: 2rem 0;
+        top: 0rem;
+        font-size: 3rem;
+    }
+    .floatLeft, .floatRight{
+        width: 100%;
+    }
+}
