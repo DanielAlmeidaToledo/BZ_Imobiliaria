@@ -37,7 +37,11 @@
 
 @media (max-width: 710px){
     .value{
-        padding: 2rem 0;
+        padding: 2rem 0 0 0;
+    }
+    .bgValue{
+        width: 100%;
+        height: 35vh;
     }
     .cardsValue{
         display: block;

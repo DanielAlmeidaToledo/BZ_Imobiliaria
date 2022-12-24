@@ -128,8 +128,12 @@
 
 @media (max-width: 1130px){
     .forms{
-        height: 130vh;
+        height: 140vh;
         display: block;
+        margin-top: -4rem;
+    }
+    .formsTitle{
+        padding-top: 3rem;
     }
     .formsSpan, .formsRight{
         width: 100%;
@@ -140,7 +144,7 @@
     .formsDiv{
         display: block;
         width: 80%;
-        height: 106vh;
+        height: 108vh;
     }
     .contInput{
         width: 15rem;
@@ -158,5 +162,6 @@
     .formsBtn{
         width: 70%;
         height: 3.2rem;
+        margin: 1rem auto 0;
     }
 }

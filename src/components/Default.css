@@ -3,7 +3,6 @@
     width: 101%;
     display: flex;
     top: 0;
-    /* background: rgba(255, 255, 255, 0.6); */
 }
 
 .navbar{
@@ -60,14 +59,14 @@
         justify-content: space-around;
     }
     .logo{
-        width: 6rem;
-        height: 6rem;
-        margin: auto 0 auto 3rem;
+        width: 8rem;
+        height: 8rem;
+        margin: auto 0 auto 4rem;
     }
     .navOptions{
         margin-right: 3rem;
     }
     .navOptions li{
-        margin: 0 .5rem;
+        margin: 0 .3rem;
     }
 }

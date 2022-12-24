@@ -1,5 +1,6 @@
 import Slider from 'react-slick';
 import './Carousel.css'
+import { BsWhatsapp } from "react-icons/bs";
 
 import Img1 from "../assets/slideImg/img1.jpg";
 import Img2 from "../assets/slideImg/img2.jpg";
@@ -26,30 +27,39 @@ const images = [
 ];
 
 export default function Carousel() {
-    var settings = {
-        arrows: false,
-        dots: false,
-        infinite: true,
-        speed: 700,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoPlaySpeed: 200,
-        pauseOnHover: true,
-        adaptiveHeight: true,
-    };
-    return (
-        <div className='divSlide'>
-            <Slider {...settings}>
-                    {images.map((item) => {
-                        const {name, url} = item;
-                        return (
-                            <div key={name}>
-                                <img src={url} alt="Imagem Slide" className='imgSlide' />
-                            </div>
-                        );
-                    })}            
-            </Slider>
+  var settings = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    speed: 700,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoPlaySpeed: 200,
+    pauseOnHover: true,
+    adaptiveHeight: true,
+  };
+  return (
+    <div className="divSlide">
+      <Slider {...settings}>
+        {images.map((item) => {
+          const { name, url } = item;
+          return (
+            <div key={name}>
+              <img src={url} alt="Imagem Slide" className="imgSlide" />
+            </div>
+          );
+        })}
+      </Slider>
+      <div className="slideWhats">
+        <div className="callWhats">
+          <p>Entre em contato com os nossos corretores</p>
+          <a href="" className="btnCall">
+            <BsWhatsapp size={30} />
+            <span>Whatsapp</span>
+          </a>
         </div>
-    );
-  }
+      </div>
+    </div>
+  );
+}
