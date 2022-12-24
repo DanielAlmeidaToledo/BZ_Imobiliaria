@@ -128,7 +128,7 @@
 
 @media (max-width: 1130px){
     .forms{
-        height: 140vh;
+        height: 110vh;
         display: block;
         margin-top: -4rem;
     }
@@ -144,7 +144,7 @@
     .formsDiv{
         display: block;
         width: 80%;
-        height: 108vh;
+        height: 87vh;
     }
     .contInput{
         width: 15rem;
