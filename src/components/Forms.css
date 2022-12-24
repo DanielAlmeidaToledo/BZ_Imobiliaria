@@ -3,7 +3,6 @@
     background-position: initial;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -128,9 +127,9 @@
 
 @media (max-width: 1130px){
     .forms{
-        height: 110vh;
         display: block;
         margin-top: -4rem;
+        padding-bottom: 5rem;
     }
     .formsTitle{
         padding-top: 3rem;
@@ -142,9 +141,10 @@
         padding: 1rem 0 2rem;
     }
     .formsDiv{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         width: 80%;
-        height: 87vh;
+        margin: auto auto 1rem auto;
     }
     .contInput{
         width: 15rem;
@@ -162,6 +162,6 @@
     .formsBtn{
         width: 70%;
         height: 3.2rem;
-        margin: 1rem auto 0;
+        margin: 1rem auto;
     }
 }

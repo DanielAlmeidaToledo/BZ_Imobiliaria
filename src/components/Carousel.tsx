@@ -54,7 +54,7 @@ export default function Carousel() {
       <div className="slideWhats">
         <div className="callWhats">
           <p>Entre em contato com os nossos corretores</p>
-          <a href="" className="btnCall">
+          <a href="https://wa.me/5515981238616" className="btnCall">
             <BsWhatsapp size={30} />
             <span>Whatsapp</span>
           </a>
