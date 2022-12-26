@@ -16,7 +16,7 @@ const Default = () => {
           </li>
           <li>
             <button
-              onClick={() => scroll.scrollTo(3330)}
+              onClick={() => scroll.scrollTo(3370)}
               className="contactNav"
             >
               Contato
