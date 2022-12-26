@@ -30,8 +30,8 @@ const Value = () => {
             icon={<FcLibrary size={100} />}
           />
           <Cards
-            title="Regularização de Obras"
-            subTitle="Processo de regularização das obras realizadas em uma residência, a fim de garantir que todos os trabalhos e serviços realizados sejam de acordo com as leis vigentes, bem como que não coloquem em risco a segurança, integridade e saúde das pessoas que frequentam o imóvel."
+            title="Regularização de Imóveis"
+            subTitle="Processo de regularização de Imóveis realizadas em uma residência, a fim de garantir que todos os trabalhos e serviços realizados sejam de acordo com as leis vigentes, bem como que não coloquem em risco a segurança, integridade e saúde das pessoas que frequentam o imóvel."
             icon={<FcSurvey size={100} />}
           />
         </div>

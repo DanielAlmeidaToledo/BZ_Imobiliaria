@@ -1,5 +1,7 @@
 import Logo from "../assets/logo/logofinal.png";
 import "./Default.css";
+import Scroll from "react-scroll";
+var scroll = Scroll.animateScroll;
 
 const Default = () => {
   return (
@@ -8,12 +10,17 @@ const Default = () => {
         <img className="logo" src={Logo} alt="" />
         <ul className="navOptions">
           <li>
-            <a href="">Serviços</a>
+            <button onClick={() => scroll.scrollTo(1000)} className="servNav">
+              Serviços
+            </button>
           </li>
           <li>
-            <a href="" className="contactNav">
+            <button
+              onClick={() => scroll.scrollTo(3330)}
+              className="contactNav"
+            >
               Contato
-            </a>
+            </button>
           </li>
         </ul>
       </div>
